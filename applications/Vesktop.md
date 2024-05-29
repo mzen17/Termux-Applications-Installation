@@ -142,4 +142,4 @@ It's really dirty, and the "excludedFiles" got lost, but it still seems to be wo
 There still seems to be some GPU bugs (I use the mesa freedreno dri3 driver), but it seems to be the driver not Vesktop.
 ![vesktop-bugs](https://github.com/mzen17/Termux-Applications-Installation/assets/92705460/d22eda67-7d7c-4e57-8c13-7cf6c8b2bd5e)
 
-Anyways, I'll be dropping the tarball here in case anyone needs a termux-specific vesktop. It will be in the packages folder.
+Anyways, I'll be dropping the tarball in a cdn ([click to download](https://repository.termux.mzen.dev/vesktop-1.5.2-arm64-termux.tar.gz)) if anyone wants to download it.
