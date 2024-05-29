@@ -1,5 +1,7 @@
 # Vesktop [Discord]
 Status: WORKING!!! (See update).
+![vesktop-working](https://github.com/mzen17/Termux-Applications-Installation/assets/92705460/9c02298c-d685-4f4d-8384-c22b5f6a28b9)
+
 
 ## Quick bits: Why Vesktop?
 Vesktop is an open source discord client, unlike the official discord app. This makes it great for recompilation to make sure things work. In addition, it does come with the benefits of vencord, and is what I use on my standard Arch Linux boxes. It is also a great stress-test for Termux.
@@ -134,8 +136,10 @@ func UnpackElectron(configs []ElectronDownloadOptions, outputDir string, distMac
 	return nil
 }
 ```
-It's really dirty, and the "excludedFiles" got lost, but it still seems to be working.
+It's really dirty, and the "excludedFiles" got lost, but it still seems to be working. As you can see here, glibc-check (which finds if a binary was compiled with GCC, script taken from stackoverflow) reports nothing.
+![glibc-check](https://github.com/mzen17/Termux-Applications-Installation/assets/92705460/1b332a9b-ec61-4723-b9b0-3ff7b6d87780)
 
 There still seems to be some GPU bugs (I use the mesa freedreno dri3 driver), but it seems to be the driver not Vesktop.
+![vesktop-bugs](https://github.com/mzen17/Termux-Applications-Installation/assets/92705460/d22eda67-7d7c-4e57-8c13-7cf6c8b2bd5e)
 
-Anyways, I'll be dropping the tarball here in case anyone needs a termux-specific vesktop.
+Anyways, I'll be dropping the tarball here in case anyone needs a termux-specific vesktop. It will be in the packages folder.
